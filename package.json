@@ -1,6 +1,6 @@
 {
   "name": "glsl-perturb-normal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "perturb normal from a normal map",
   "main": "index.js",
   "license": "MIT",
@@ -28,9 +28,19 @@
     "url": "git://github.com/stackgl/glsl-perturb-normal.git"
   },
   "keywords": [
-    "ecosystem:stackgl", "shader", "fragment", "perturb",
-    "normal", "mapping", "map", "maps", "normals", "smooth",
-    "bump", "glsl", "glslify"
+    "ecosystem:stackgl",
+    "shader",
+    "fragment",
+    "perturb",
+    "normal",
+    "mapping",
+    "map",
+    "maps",
+    "normals",
+    "smooth",
+    "bump",
+    "glsl",
+    "glslify"
   ],
   "homepage": "https://github.com/stackgl/glsl-perturb-normal",
   "bugs": {
