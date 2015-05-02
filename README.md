@@ -54,6 +54,10 @@ Perturbs a normal where:
 
 This uses `GL_OES_standard_derivatives` to compute the derivatives, so it may not work on older or low-end devices. 
 
+## Credits
+
+The algorithm here is from Chris­t­ian Schüler's blog post [Normal Mapping Without Precomputed Tangents](http://www.thetenthplanet.de/archives/1180).
+
 ## License
 
 MIT. See [LICENSE.md](http://github.com/stackgl/glsl-perturb-normal/blob/master/LICENSE.md) for details.
