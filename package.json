@@ -1,0 +1,39 @@
+{
+  "name": "glsl-perturb-normal",
+  "version": "1.0.0",
+  "description": "perturb normal from a normal map",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "budo demo/test.js:bundle.js --dir demo -t glslify --live | garnish",
+    "build": "browserify demo/test.js -t glslify | uglifyjs -cm > demo/bundle.js"
+  },
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "http://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^10.0.0",
+    "budo": "^4.0.0",
+    "garnish": "^2.1.3",
+    "glslify": "^2.1.2",
+    "three": "^0.71.0",
+    "three-orbit-viewer": "^69.3.0",
+    "uglify-js": "^2.4.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/glsl-perturb-normal.git"
+  },
+  "keywords": [
+    "ecosystem:stackgl", "shader", "fragment", "perturb",
+    "normal", "mapping", "map", "maps", "normals", "smooth",
+    "bump", "glsl", "glslify"
+  ],
+  "homepage": "https://github.com/stackgl/glsl-perturb-normal",
+  "bugs": {
+    "url": "https://github.com/stackgl/glsl-perturb-normal/issues"
+  }
+}
