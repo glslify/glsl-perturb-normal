@@ -19,7 +19,7 @@ varying vec3 vViewPosition;
 
 uniform sampler2D normalMap;
 
-#pragma glslify: perturb = require('../')
+#pragma glslify: perturb = require('glsl-perturb-normal')
 
 void main() {
   //extract normal map from your texture
