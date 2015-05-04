@@ -2,6 +2,8 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
+![demo-image](http://i.imgur.com/RCn9tjK.jpg)
+
 [(click for demo)](http://stack.gl/glsl-perturb-normal/demo)
 
 <!-- iframe: http://stack.gl/glsl-perturb-normal/demo -->
